@@ -23,7 +23,7 @@ def pyramid_tests():
 
 def pyramid(n):
     ans = []
-    for i in range(1, n+1, 1):
+    for i in range(1, n+1, 1):  
         ans.append([1] * i)
     return ans
 
